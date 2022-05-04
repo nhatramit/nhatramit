@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LogoConfigurationTestSuite">
+	<test thread-count="5" name="LogoConfigurationTest_1045">
+        <classes>
+            <class name="com.xifin.training.test.LogoConfigurationTest">
+                <methods>
+                    <include name="testLogoConfiguration"/>
+                </methods>
+            </class>
+        </classes>
+	</test>
+</suite>
